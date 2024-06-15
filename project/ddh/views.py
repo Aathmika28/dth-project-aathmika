@@ -19,7 +19,7 @@ def generate_random_string():
     return random_string
 
 def home (request):
-
+    print("hello ")
     return render (request,'virtual-reality.html')
     
 
